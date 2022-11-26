@@ -1,6 +1,6 @@
 ### gcloud commands to create 3 vms for the cluster
 ```bash
-gcloud compute instances create master worker-1 worker-2 --create-disk=auto-delete=yes,boot=yes,image=projects/ubuntu-os-cloud/global/images/ubuntu-1804-bionic-v20211115 --zone us-central1-a --machine-type=n2-standard-2![image](https://user-images.githubusercontent.com/56613052/204102796-27f137b5-1fb3-4246-a03c-634b7df27134.png)
+gcloud compute instances create master worker-1 worker-2 --create-disk=auto-delete=yes,boot=yes,image=projects/ubuntu-os-cloud/global/images/ubuntu-1804-bionic-v20211115 --zone us-central1-a --machine-type=n2-standard-2
 ```
 
 
